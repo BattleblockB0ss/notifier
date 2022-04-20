@@ -356,3 +356,51 @@ unknown_category_name = "Altro"
 thread_opener = "Thread:"
 post_replies_opener = "Risposte al tuo post:"
 untitled_post_title = "(post senza titolo)"
+
+[pi]
+frequency_hourly = "ourlyhay"
+frequency_8hourly = "everyyay eightyay ourshay"
+frequency_daily = "ailyday"
+frequency_weekly = "eeklyway"
+frequency_monthly = "onthlymay"
+subject = "[Orumfay Otificationsnay] {post_count} ewnay ostspay"
+intro = """|
+Ellohay! Isthay isyay ourya {frequency} otificationnay igestday omfray {link_site}, otifyingnay
+ouyay ofyay ewnay postspay otay eadsthray atthat ou'reyay ubscribedsay otay.
+
+Otnay includingyay anyyay ubsciptionssay atthay avehay eenbay eomvedray asyay ayay esultray ofyay ouryay
+anualmay unsubscriptionsyay, isthay ervicesay isyay eepingkay acktray of {sub_count}
+plural({sub_count}|ubscriptionsay|ubscriptionssay) orfay ouyay:
+
+* {manual_sub_count} anualmay
+plural({manual_sub_count}|ubscriptionsay|ubscriptionssay), asyay efinedday inyay
+[{link_your_config} ouryay useryay onfigurationcay].
+
+* {auto_thread_sub_count} automaticyay eadthray
+plural({auto_thread_sub_count}|ubscriptionsay|ubscriptionssay) and
+{auto_post_sub_count} automaticyay ostpay
+plural({auto_post_sub_count}|ubscriptionsay|ubscriptionssay). Ethay ervicesay isyay
+[{link_info_learning} illstay earninglay] aboutyay ourya automaticyay ubscriptionssay, osay 
+expectyay isthay umbernay otay increaseyay overyay imetay. [{link_info_automatic} Earlay atwhay
+onstitutescay anyay automaticyay ubscriptionsay.]
+
+Isthay accountyay ([[*user Notifier]]) isyay automatedyay -- anyyay responseyay otay isthay
+essagemay illway ebay ignoredyay. Ifyay erethay areyay anyyay oblemspray, ontactcay emay ([[*user 
+Croquembouche]]) irectlyday.
+
+-----
+
+[[=]]<>+ :closed_mailbox_with_raised_flag:<>[[/=]]
+
+-----
+"""
+unsub_footer = "Unsubscribeyay omfray esethay otificationsnay: {link_unsubscribe}"
+main_summary = "Ouyay avehay {summary} omfray {wiki_count} plural({wiki_count}|ikiway|ikisway)"
+summary = """|
+{notification_count} plural({notification_count}|otificationnay|otificationsnay)
+in {thread_count} plural({thread_count}|eadthray|eadsthray)
+"""
+unknown_category_name = "Otheryay"
+thread_opener = "Eadthray:"
+post_replies_opener = "Epliesray otay ouryay ostpay:"
+untitled_post_title = "(untitled post)"
